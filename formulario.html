@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <center>
+        <h1>FORMULARIOS</h1><hr>
+       <a href="index.html"> <h3>REGRESAR</h3></a>
+    </center>
+    <form action="index.php" method="get" enctype="text/plain">
+
+<table border width="90%" style="margin: auto;" cellspacing="2">
+    <tr>
+        <td><h1 align="center">NOMBRE</h1></td>
+        <td><h1 align="center">DESCRIPCIÓN</h1></td>
+        <td><h1 align="center">EJEMPLO</h1></td>
+    </tr>
+    <tr>
+        <td>1. CAMPO DE TEXTO</td>
+        <td>Permite que usuario introduzca información </td>
+        <td> <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre" required></td>
+    </tr>
+    <tr>
+        <td>2. PASSWORD</td>
+        <td>Se utiliza para ocultar contraseñas</td>
+        <td><input type="password" name="password" id="password" placeholder="Introduce tu contraseña"></td>
+    </tr>
+    <tr>
+        <td>3. CHECKBOX</td>
+        <td>Casilla de revisión</td>
+        <td><input type="checkbox"> <input type="checkbox" checked></td>
+    </tr>
+    <tr>
+        <td>4. BOTÓN RADIO</td>
+        <td>Seleccionar entre ciertas opciones</td>
+        <td><input type="radio" name="escuela" id="boton1">CECYTEM <br>
+             <input type="radio" name="escuela" id="boton2" checked>CBT <br>
+             <input type="radio" name="escuela" id="boton3">CONALEP
+            </td>
+    </tr>
+    <tr>
+        <td>5. HIDDEN</td>
+        <td>Casilla oculta</td>
+        <td><input type="hidden" name="oculto" id="oculto" value="Mi contraseña es 134340"></td>
+    </tr>
+    <tr>
+        <td>6. ÁREA DE TEXTO</td>
+        <td>Permite escribir textos largos</td>
+        <td><textarea name="texto0" id="texto" cols="30" rows="10" nosize></textarea></td>
+    </tr>
+    <tr>
+        <td>7. LISTA DESPLEGABLE</td>
+        <td>Opciones a seleccionar dentro de la lista</td>
+        <td>
+            <select name="lista" id="lista">
+<option value="Jimin">Jimin</option>
+<option value="Jin">Jin</option>
+<option value="Jungkook">Jungkook</option>
+<option value="Namjoon">Namjoon</option>
+<option value="Yoongi">Yoongi</option>
+
+        </select>
+    </td>
+    </tr>
+
+
+    <tr>
+        <td>8. BOTÓN ENVIAR</td>
+        <td>Enviar información al sitio</td>
+        <td><input type="submit" value="Enviar"></td>
+    </tr>
+    <tr>
+        <td>9. BOTÓN IMAGEN</td>
+        <td>Imagen que funciona como botón</td>
+        <td><input type="image" src="btn.png"></td>
+    </tr>
+    <tr>
+        <td>10. BOTÓN BORRAR</td>
+        <td>Borra los datos colocados en formulario</td>
+        <td><input type="reset" value="Borrar"></td>
+    </tr>
+    <tr>
+        <td>11. BOTÓN COLOR</td>
+        <td>Cambiar el color</td>
+        <td><input type="color"></td>
+    </tr>
+    <tr>
+        <td>12. BOTÓN COMANDO</td>
+        <td>Guardar cambios</td>
+        <td><input type="button" value="Aceptar"></td>
+    </tr>
+    <tr>
+        <td>13. BOTÓN FECHA</td>
+        <td>Seleccionar fecha</td>
+        <td><input type="date" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>14. FECHA Y HORA</td>
+        <td>Seleccionar fecha y hora</td>
+        <td><input type="datetime" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>15. FECHA Y HORA LOCAL </td>
+        <td>Toma fecha y hora del sistema</td>
+        <td><input type="datetime-local" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>16. EMAIL</td>
+        <td>Comprueba que haya un '@'</td>
+        <td><input type="email" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>17. CAMPO ARCHIVO</td>
+        <td>Insertar archivos del sistema</td>
+        <td><input type="file" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>18. MES DEL AÑO</td>
+        <td>Permite seleccionar un mes</td>
+        <td><input type="month" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>19. CAMPO NÚMERICO</td>
+        <td>Campo que inserta sólo números</td>
+        <td><input type="number" name="" id="" step="0.5" value="0"></td>
+    </tr>
+    <tr>
+        <td>20. SLIDER</td>
+        <td>Barra de deslizamiento para seleccionar cantidades</td>
+        <td><input type="range" name="" id="" value="0" min="0" max="7"></td>
+    </tr>
+    <tr>
+        <td>21. CAMPO BÚSQUEDA</td>
+        <td>Permite hacer búsquedas</td>
+        <td><input type="search" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>22. CAMPO TELÉFONO</td>
+        <td>Se usa para ingresar números telefónicos</td>
+        <td><input type="tel" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>23. HORA</td>
+        <td>Muestra hora actual del sistema, permite seleccionar horas</td>
+        <td><input type="time" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>24. CAMPO URL</td>
+        <td>Se utiliza para ingresar direcciones electrónicas</td>
+        <td><input type="url" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>25. SEMANA</td>
+        <td>Permite seleccionar una semana del año</td>
+        <td><input type="week" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>26. LISTA OCULTA O AUTOCOMPLETADO</td>
+        <td>Se muestran sugerencias para completar el campo</td>
+        <td><input list="paises"></td>
+        <datalist id="paises">
+            <option value="México"></option>
+            <option value="Salvador"></option>
+            <option value="USA"></option>
+            <option value="España"></option>
+            <option value="Brasil"></option>
+        </datalist>
+    </tr>
+    <tr>
+        <td>27. PROGRESS BAR</td>
+        <td>Barra de progreso estática</td>
+        <td><progress id="file" max="100" value="70">70%</progress></td>
+    </tr>
+    <tr>
+        <td>28. ESTÉTICO</td>
+        <td>Sirve para darle estética al formulario</td>
+        <td> 
+
+        <fieldset>
+<legend> Datos Personales</legend>
+Nombre<br>
+<input type="text" name="nombre" value="">
+<br>
+Apellidos<br>
+<input type="text" name="apellidos" value="">
+<br>
+DNI<br>
+<input type="text" name="dni" value="" size="10" maxlength="9">
+
+        </fieldset>
+        </td>
+
+    </tr>
+
+</table>
+
+
+    </form>
+</body>
+</html>
